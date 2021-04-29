@@ -48,6 +48,10 @@ Az első sufferDamage hívás után módosítsd az attribútum értékét!)
         return hasShield;
     }
 
+    public void decremHitPoints(int hitPoints){
+        this.hitPoints-= hitPoints;
+    }
+
     public int doDamage(){
         return damage;
     }
